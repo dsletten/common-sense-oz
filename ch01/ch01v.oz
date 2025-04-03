@@ -59,20 +59,5 @@ define
    {ShoppingList insert(0 "figs")}
    {PrintShoppingList ShoppingList}
 
-   
-% {Show {Position ShoppingList "dates"}}
-
-      
-% {System.showInfo {Array.get ShoppingList 3}}
-
-% {Insert ShoppingList 1 "figs"}
-
-% declare
-% ShoppingList2 = {Insert ShoppingList 6 "figs"}
-% for I in 1..6 do
-%    {System.showInfo {Array.get ShoppingList2 I}}
-% end
-% {System.showInfo ""}
-
    {Application.exit 0}
 end
